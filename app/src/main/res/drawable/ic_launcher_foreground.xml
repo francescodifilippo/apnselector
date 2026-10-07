@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Signal tower icon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,30 L54,50 M44,38 L54,30 L64,38 M38,46 L54,30 L70,46" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:pathData="M54,32L54,58" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:pathData="M46,42L54,32L62,42" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M39,50L54,32L69,50" />
+    <!-- APN text -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M36,68L40,60L44,68ZM38.5,65.5L41.5,65.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48,60L53,60Q56,60 56,63Q56,66 53,66L48,66L48,68ZM48,62L48,64.5L52,64.5Q53.5,64.5 53.5,63.25Q53.5,62 52,62Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,60L60,68L60,60L67,68L67,60" />
+    <!-- Check mark -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M50,74L53,77L60,70"
+        android:strokeColor="#4CAF50"
+        android:strokeWidth="2" />
+</vector>

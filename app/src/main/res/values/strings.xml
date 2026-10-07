@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">APN Selector</string>
+
+    <!-- Widget names -->
+    <string name="widget_list_name">APN List</string>
+    <string name="widget_list_description">Shows all device APNs with the active one highlighted</string>
+    <string name="widget_single_name">APN Monitor</string>
+    <string name="widget_single_description">Monitors a single APN active/inactive status</string>
+
+    <!-- Config activity -->
+    <string name="config_title">Configure APN Widget</string>
+    <string name="config_select_apn">Select APN</string>
+    <string name="config_select_color">Select Color</string>
+    <string name="config_save">Save</string>
+    <string name="config_cancel">Cancel</string>
+
+    <!-- States / errors -->
+    <string name="no_apn_found">No APN found</string>
+    <string name="no_sim">No SIM card</string>
+    <string name="permission_required">Tap to grant permission</string>
+    <string name="loading">Loading…</string>
+    <string name="active">Active</string>
+    <string name="inactive">Inactive</string>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_background"
+    android:orientation="vertical"
+    android:padding="@dimen/widget_padding">
+
+    <TextView
+        android:id="@+id/widget_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/widget_item_padding_horizontal"
+        android:paddingEnd="@dimen/widget_item_padding_horizontal"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:text="@string/app_name"
+        android:textColor="@color/widget_text"
+        android:textSize="@dimen/widget_item_text_size"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/apn_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:dividerHeight="0dp" />
+
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/no_apn_found"
+        android:textColor="@color/widget_text_secondary"
+        android:textSize="@dimen/widget_item_text_size"
+        android:visibility="gone" />
+
+</LinearLayout>
